@@ -135,9 +135,15 @@ function displayTopicGifs() {
 	$("#addTopic").on("click", function(event) {
 		event.preventDefault();
 		var topic = $("#newTopic").val();
+
+		if topic == "" {
+			alert("topic cannot be blank");
+		}
+		else {
 		topics.unshift(topic);
 		
 		makeButton();
+	}
 		
 	})
 
