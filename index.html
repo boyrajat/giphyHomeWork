@@ -108,6 +108,7 @@ function displayTopicGifs() {
         		
         		newImage.attr("alt", "topic gif")
         		newImage.attr("style", "width: 100%");
+        		newImage.attr("style", "height: 300px");
         		newImage.attr("src", response.data[g].images.fixed_width_still.url);
         		newImage.attr("data-still", response.data[g].images.fixed_width_still.url);
         		newImage.attr("data-animate", response.data[g].images.fixed_width.url);
@@ -137,7 +138,7 @@ function displayTopicGifs() {
 		var topic = $("#newTopic").val();
 
 		if (topic == "") {
-			alert("topic cannot be blank");
+			alert("Topic cannot be blank");
 		}
 		else {
 		topics.unshift(topic);
