@@ -109,9 +109,9 @@ function displayTopicGifs() {
         		newImage.attr("alt", "topic gif")
         		newImage.attr("style", "width: 100%");
         		//newImage.attr("style", "height: 80%");
-        		newImage.attr("src", response.data[g].images.fixed_width_still.url);
-        		newImage.attr("data-still", response.data[g].images.fixed_width_still.url);
-        		newImage.attr("data-animate", response.data[g].images.fixed_width.url);
+        		newImage.attr("src", response.data[g].images.fixed_height.url);
+        		newImage.attr("data-still", response.data[g].images.fixed_height.url);
+        		newImage.attr("data-animate", response.data[g].images.fixed_height.url);
         		newImage.attr("data-state", "still");
         		newImage.addClass("giphies");
 
