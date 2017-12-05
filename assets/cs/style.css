@@ -1,0 +1,35 @@
+body {
+	background-color: beige;
+font-size: 18px;
+}
+
+p {
+	
+	font-weight: 500;
+}
+#myGifs {
+animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+min-height: 500px;
+
+}
+@keyframes example {
+    0%   {background-color:lightpink;}
+    25%  {background-color:lightgray;}
+    50%  {background-color:lightblue;}
+    75%  {background-color:white;}
+    100% {background-color:beige;}
+	}
+
+.gifs {
+	border-style: border-box;
+
+	border-color: beige;
+	padding: 10px;
+}
+
+footer {
+  position: relative;
+ padding: 20px;
+}
