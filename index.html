@@ -74,7 +74,7 @@ function makeButton() {
 	
 	};
 }
-//console.log(btoa("trilogy"));
+//console.log(btoa("dc6zaTOxFJmzC"));
 
 function displayTopicGifs() {
 
@@ -87,6 +87,8 @@ function displayTopicGifs() {
 			var funnybiz = atob(data.funnybiz);
 
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + subject + "&api_key=" + funnybiz + "&limit=10"
+
+        console.log(queryURL);
 
         // Creates AJAX call for the specific movie button being clicked
         
