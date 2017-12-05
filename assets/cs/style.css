@@ -7,6 +7,9 @@ p {
 	
 	font-weight: 500;
 }
+img {
+    height: 200px;
+}
 #myGifs {
 animation-name: example;
     animation-duration: 10s;
